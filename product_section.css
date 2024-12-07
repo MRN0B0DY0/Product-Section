@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+@media screen and (max-width: 899px) {
+    .bg-container {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/fairpods-darkpink-bg.png");
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .product-image {
+        height: 40vh;
+        width: 40vw;
+    }
+
+    .bottom-card {
+        width: 80vw;
+    }
+
+    .product-name {
+        color: #8e62d9;
+        font-size: 20px;
+        width: 40vw;
+        font-family: "Roboto";
+    }
+
+    .heading {
+        color: #ffffff;
+        font-size: 40px;
+        width: 400px;
+        font-weight: 700;
+        font-family: "Roboto";
+    }
+
+    .description {
+        color: #ffffff;
+        font-family: "Roboto";
+        font-size: 16px;
+        width: 320px;
+        ;
+    }
+
+    .button {
+        margin-top: 10px;
+        background-color: #ffdda9;
+        color: #334155;
+        height: 50px;
+        width: 200px;
+        border-radius: 30px;
+        font-weight: 900;
+        align-self: center;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .bg-container {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/fairpods-blue-bg.png");
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .product-image {
+        height: 40vh;
+        width: 30vw;
+    }
+
+    .bottom-card {
+        order: -1;
+        width: 60vw;
+    }
+
+    .product-name {
+        color: #8e62d9;
+        font-size: 20px;
+        font-family: "Roboto";
+    }
+
+    .heading {
+        color: #ffffff;
+        font-size: 45px;
+        font-weight: 700;
+        font-family: "Roboto";
+    }
+
+    .description {
+        color: #ffffff;
+        font-family: "Roboto";
+        font-size: 14px;
+    }
+
+    .button {
+        margin-top: 10px;
+        background-color: #ffdda9;
+        color: #334155;
+        height: 40px;
+        width: 160px;
+        border-radius: 30px;
+        font-weight: 900;
+    }
+}
